@@ -1,0 +1,38 @@
+{
+  "name": "passport-paypal-permissions",
+  "version": "1.0.0",
+  "description": "Paypal's Permissions API authentication strategy for Passport and Node.js",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fibulous/passport-paypal-permissions.git"
+  },
+  "keywords": [
+    "paypal",
+    "passportjs",
+    "permissions"
+  ],
+  "contributors": [
+    {
+      "name": "Steven Booth",
+      "email": "steven.booth@flowxo.com"
+    },
+    {
+      "name": "Roberto Oliveros",
+      "email": "robertooliveros@mac.com",
+      "url": "http://roboli.space"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fibulous/passport-paypal-permissions/issues"
+  },
+  "homepage": "https://github.com/Fibulous/passport-paypal-permissions#readme",
+  "dependencies": {
+    "passport": "0.3.2",
+    "paypal-permissions-sdk": "1.0.8"
+  }
+}
